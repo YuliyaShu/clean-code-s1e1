@@ -36,7 +36,7 @@ body {
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .task-row {
@@ -116,7 +116,6 @@ li {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -135,7 +134,7 @@ li {
 }
 
 .task-text {
-  width: 226px
+  width: 226px;
 }
 
 .delete-img {
@@ -156,7 +155,7 @@ li {
 
 /* Edit Task */
 .task-text {
-  display: none
+  display: none;
 }
 
 .edit-mode-task-text {
