@@ -191,7 +191,7 @@ for (var i=0; i<incompleteTaskHolder.children.length;i++){
 
 //cycle over completedTasksHolder ul list items
 for (var i=0; i<completedTasksHolder.children.length;i++){
-  //bind events to list items children(tasksIncompleted)
+  //bind events to list items children(tasksIncomplete)
   bindTaskEvents(completedTasksHolder.children[i],taskIncomplete);
 }
 
